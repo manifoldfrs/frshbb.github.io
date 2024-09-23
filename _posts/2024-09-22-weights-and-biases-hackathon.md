@@ -2,7 +2,7 @@
 layout: post
 title: 'Hackathon: Implementing LLMs-as-Judges'
 date: 2024-09-22 09:11:07 -0800
-categories: Talks
+categories: Posts
 ---
 
 I had the pleasure of attending my first AI hackathon this past weekend hosted by Weights & Biases. The goal was to implement [this paper](https://www.arxiv.org/abs/2408.09235#:~:text=17%20Aug%202024%5D-,Reference%2DGuided%20Verdict%3A%20LLMs%2Das%2DJudges%20in%20Automatic,Evaluation%20of%20Free%2DForm%20Text&text=The%20rapid%20advancements%20in%20Large,particularly%20in%20free%2Dform%20tasks.) on implementing LLMs as judges using reference guided verdicts. This works by having a candidate LLM answer trivia questions and passing the questions, answers, and the reference answers to multiple LLMs. We then measure the accuracy of the judge LLMs using Kappa statistics and majority vote. You can find my project on github [here](https://github.com/manifoldfrs/wb_judgement_day).
