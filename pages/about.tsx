@@ -18,7 +18,7 @@ export default function About() {
               <p>
                 You&apos;ll find reflections on everything from programming to
                 health and fitness. From religious contemplation, to practical
-                life philosophy, and poetry. The most interesting insights often
+                philoosophy, and poetry. The most interesting insights often
                 emerge from the cross-pollination of ideas.
               </p>
 
